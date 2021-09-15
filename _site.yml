@@ -1,12 +1,27 @@
-name: "."
+name: "site"
 title: "CSS Technical Skills Workshop"
 description: |
-  CSS Technical Skills Workshop
+  A workshop series for computational and technical skills
+  in the social sciences.
 output_dir: "_site"
+base_url: https://css-skills.netlify.app
+repository_url: https://github.com/css-skills/site
+google_analytics: "G-SRQS3V8DXN"
+cookie_consent:
+  style: simple
+  type: express
+  palette: light
+  lang: en
+  cookies_policy: url
+creative_commons: CC BY-NC
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+  source_url: true
 output: distill::distill_article
+collections:
+  posts:
+    share: [twitter, linkedin, ]
