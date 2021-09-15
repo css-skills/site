@@ -1,19 +1,19 @@
 ---
-title: "Benjamin Soltoff"
-image: "images/ben-soltoff.jpg"
-links:
-  - label: LinkedIn
-    url: "https://www.linkedin.com/in/benjaminsoltoff/"
-  - label: Twitter
-    url: "https://twitter.com/soltoffbc"
-  - label: GitHub
-    url: "https://github.com/bensoltoff"
-  - label: Email
-    url: "mailto:soltoffbc@uchicago.edu"
-output:
-  postcards::jolla
+title: "About the workshop"
 ---
- 
-I am an Assistant Senior Instructional Professor in Computational Social Science and Associate Director of the [Masters in Computational Social Science](https://macss.uchicago.edu) at the University of Chicago. I teach learners social scientific research design, computational modeling, data science, math/statistics, and data visualization.
 
-The Computational Social Science (CSS) Technical Skills Workshop meets biweekly on Tuesday afternoons.
+## Instructor
+
+### Benjamin Soltoff
+
+```{r out.width = "50%", echo = FALSE}
+knitr::include_graphics(path = here::here("images", "ben-soltoff.jpg"))
+```
+
+- [soltoffbc@uchicago.edu](mailto:soltoffbc@uchicago.edu)
+
+Dr. Soltoff is an Assistant Senior Instructional Professor in Computational Social Science and Associate Director of the [Masters in Computational Social Science](https://macss.uchicago.edu) at the University of Chicago. He leads the CSS Technical Skills workshop. He currently teaches courses on social scientific research design, computational modeling, data science, math/statistics, and data visualization. For more information, visit his [homepage](https://www.bensoltoff.com).
+
+## Teaching assistants
+
+TBD
