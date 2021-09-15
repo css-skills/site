@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-09-15T14:33:24-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "CSS Technical Skills Workshop",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-09-15T14:33:30-05:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
