@@ -30,7 +30,7 @@ Room 295 in [1155 E 60th St](https://goo.gl/maps/7n7wDsd9mjnfRBtR8).
 
 ## Prework
 
-- Register for this workshop. Due to the current public health crisis, all participants must register in advance using this form.
+- Register for this workshop. Due to the current public health crisis, all participants must register in advance using this form. **Link to be posted.**
 - Please sign up for a free [RStudio Cloud account](https://rstudio.cloud).
 
 ## Links
