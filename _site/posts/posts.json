@@ -1,19 +1,70 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to CSS Technical Skills Workshop",
-    "description": "Welcome to our new blog, CSS Technical Skills Workshop. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2021-11-16-literate-programming-with-r-markdown/",
+    "title": "Literate programming with R Markdown",
+    "description": "Literate programming is a technique for meshing source code with a human-readable explanation of its\nlogic. This approach is used widely in data science and the social sciences to enable\nreproducible research and open access. In this workshop, we introduce the R Markdown document format\nand practice developing notebooks interweaving source code, output, and written text.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Benjamin Soltoff",
+        "url": "https://www.bensoltoff.com"
       }
     ],
-    "date": "2021-09-15",
+    "date": "2021-11-16",
     "categories": [],
-    "contents": "\n\n\n\n",
+    "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-09-15T14:33:24-05:00",
-    "input_file": {}
+    "last_modified": "2021-09-24T14:46:21-05:00",
+    "input_file": "literate-programming-with-r-markdown.knit.md"
+  },
+  {
+    "path": "posts/2021-11-02-geospatial-visualizations-with-sf/",
+    "title": "Geospatial visualizations with sf",
+    "description": "R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nA modern implementation, `sf`, uses the simple features format to encode spatial vector data. This\nmethod integrates directly into tidy workflows and visualization method such as `ggplot2`.\nIn this workshop we will introduce the `sf` package and practice generating vector graphics for\ngeospatial data using `ggplot2`.",
+    "author": [
+      {
+        "name": "Benjamin Soltoff",
+        "url": "https://www.bensoltoff.com"
+      }
+    ],
+    "date": "2021-11-02",
+    "categories": [],
+    "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-09-24T14:43:01-05:00",
+    "input_file": "geospatial-visualizations-with-sf.knit.md"
+  },
+  {
+    "path": "posts/2021-10-19-optimizing-selection-of-color-palettes/",
+    "title": "Optimizing selection of color palettes",
+    "description": "Researchers frequently use color to communicate numeric values in a data visualization.\nMost software will implement a default algorithm to select a color palette, and these\npalettes frequently are hard-to-interpret or are incompatible with common forms of color\nblindness. In this workshop we will develop approaches to readily generate optimized\ncolor palettes for continuous and categorical variables.",
+    "author": [
+      {
+        "name": "Benjamin Soltoff",
+        "url": "https://www.bensoltoff.com"
+      }
+    ],
+    "date": "2021-10-19",
+    "categories": [],
+    "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-09-24T14:42:57-05:00",
+    "input_file": "optimizing-selection-of-color-palettes.knit.md"
+  },
+  {
+    "path": "posts/2021-10-05-data-visualization-with-ggplot2/",
+    "title": "Data visualization with ggplot2",
+    "description": "An introduction to data visualization and the grammar of graphics in R.",
+    "author": [
+      {
+        "name": "Benjamin Soltoff",
+        "url": "https://www.bensoltoff.com"
+      }
+    ],
+    "date": "2021-10-05",
+    "categories": [],
+    "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-09-24T14:39:32-05:00",
+    "input_file": "data-visualization-with-ggplot2.knit.md"
   }
 ]

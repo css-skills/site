@@ -8,15 +8,49 @@
 in the social sciences.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 15 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Nov 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Welcome to CSS Technical Skills Workshop</title>
-      <dc:creator>Nora Jones</dc:creator>
-      <link>https://css-skills.netlify.app/posts/welcome</link>
-      <description>Welcome to our new blog, CSS Technical Skills Workshop. We hope you enjoy 
-reading what we have to say!</description>
-      <guid>https://css-skills.netlify.app/posts/welcome</guid>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Literate programming with R Markdown</title>
+      <dc:creator>Benjamin Soltoff</dc:creator>
+      <link>https://css-skills.netlify.app/posts/2021-11-16-literate-programming-with-r-markdown</link>
+      <description>Literate programming is a technique for meshing source code with a human-readable explanation of its
+logic. This approach is used widely in data science and the social sciences to enable
+reproducible research and open access. In this workshop, we introduce the R Markdown document format
+and practice developing notebooks interweaving source code, output, and written text.</description>
+      <guid>https://css-skills.netlify.app/posts/2021-11-16-literate-programming-with-r-markdown</guid>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Geospatial visualizations with sf</title>
+      <dc:creator>Benjamin Soltoff</dc:creator>
+      <link>https://css-skills.netlify.app/posts/2021-11-02-geospatial-visualizations-with-sf</link>
+      <description>R contains many different packages for importing, structuring, and visualizing geospatial datasets.
+A modern implementation, `sf`, uses the simple features format to encode spatial vector data. This
+method integrates directly into tidy workflows and visualization method such as `ggplot2`.
+In this workshop we will introduce the `sf` package and practice generating vector graphics for
+geospatial data using `ggplot2`.</description>
+      <guid>https://css-skills.netlify.app/posts/2021-11-02-geospatial-visualizations-with-sf</guid>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing selection of color palettes</title>
+      <dc:creator>Benjamin Soltoff</dc:creator>
+      <link>https://css-skills.netlify.app/posts/2021-10-19-optimizing-selection-of-color-palettes</link>
+      <description>Researchers frequently use color to communicate numeric values in a data visualization.
+Most software will implement a default algorithm to select a color palette, and these
+palettes frequently are hard-to-interpret or are incompatible with common forms of color
+blindness. In this workshop we will develop approaches to readily generate optimized
+color palettes for continuous and categorical variables.</description>
+      <guid>https://css-skills.netlify.app/posts/2021-10-19-optimizing-selection-of-color-palettes</guid>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data visualization with ggplot2</title>
+      <dc:creator>Benjamin Soltoff</dc:creator>
+      <link>https://css-skills.netlify.app/posts/2021-10-05-data-visualization-with-ggplot2</link>
+      <description>An introduction to data visualization and the grammar of graphics in R.</description>
+      <guid>https://css-skills.netlify.app/posts/2021-10-05-data-visualization-with-ggplot2</guid>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

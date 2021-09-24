@@ -1,0 +1,38 @@
+---
+title: "Data visualization with ggplot2"
+description: |
+  An introduction to data visualization and the grammar of graphics in R.
+author:
+  - name: Benjamin Soltoff
+    url: https://www.bensoltoff.com
+    affiliation: University of Chicago
+    affiliation_url: https://macss.uchicago.edu
+date: 10-05-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+
+## Location
+
+Room 295 in [1155 E 60th St](https://goo.gl/maps/7n7wDsd9mjnfRBtR8).
+
+## Prework
+
+- Register for this workshop. Due to the current public health crisis, all participants must register in advance using this form.
+- Please sign up for a free [RStudio Cloud account](https://rstudio.cloud).
+
+## Links
+
+- RStudio Cloud workspace
+- Source materials for the workshop on GitHub
+
+
