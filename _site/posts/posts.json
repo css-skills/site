@@ -62,9 +62,9 @@
     ],
     "date": "2021-10-05",
     "categories": [],
-    "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form. Link to be posted.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
+    "contents": "\nOverview\nData visualizations are an important tool for communicating scientific findings. Visualizations encode empirical data in a compact and efficient form to help tell a story using your data. This workshop provides an introduction to creating statistical graphics using R and the ggplot2 package.\nAudience\nThis workshop is designed for individuals with a basic familiarity using R and programmatic tools to conduct data analysis.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-09-24T14:47:54-05:00",
+    "last_modified": "2021-09-29T13:46:17-05:00",
     "input_file": "data-visualization-with-ggplot2.knit.md"
   }
 ]
