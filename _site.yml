@@ -4,7 +4,7 @@ description: |
   A workshop series for computational and technical skills
   in the social sciences.
 output_dir: "_site"
-base_url: https://css-skills.netlify.app
+base_url: https://css-skills.uchicago.edu
 repository_url: https://github.com/css-skills/site
 google_analytics: "G-SRQS3V8DXN"
 cookie_consent:
