@@ -1,0 +1,45 @@
+---
+title: "Optimizing selection of color palettes"
+description: |
+  Researchers frequently use color to communicate numeric values in a data visualization.
+  Most software will implement a default algorithm to select a color palette, and these
+  palettes frequently are hard-to-interpret or are incompatible with common forms of color
+  blindness. In this workshop we will develop approaches to readily generate optimized
+  color palettes for continuous and categorical variables.
+author:
+  - name: Benjamin Soltoff
+    url: https://www.bensoltoff.com
+    affiliation: University of Chicago
+    affiliation_url: https://macss.uchicago.edu
+date: 11-02-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+
+## Audience
+
+This workshop is designed for individuals with a basic familiarity using R and `ggplot2` for data visualization.
+
+## Location
+
+Room 295 in [1155 E 60th St](https://goo.gl/maps/7n7wDsd9mjnfRBtR8).
+
+## Prework
+
+- Register for this workshop. Due to the current public health crisis, all participants must register in advance using [this form.](https://forms.gle/7JEkgjoiGEnM2MGu5)
+- Please sign up for a free [RStudio Cloud account](https://rstudio.cloud).
+- If you have not participated in a previous workshop meeting, [join the workshop organization.](https://rstudio.cloud/spaces/177434/join?access_code=cGV7c0V8%2Bpr0kFC5NkOX%2FgxNNhIm3PchWX1CjdBf)
+
+## Links
+
+- RStudio Cloud workspace
+- Source materials for the workshop on GitHub

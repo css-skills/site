@@ -86,9 +86,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Optimizing selection of color palettes</title>
+  <title>Geospatial visualizations with sf</title>
 
-  <meta property="description" itemprop="description" content="Researchers frequently use color to communicate numeric values in a data visualization.&#10;Most software will implement a default algorithm to select a color palette, and these&#10;palettes frequently are hard-to-interpret or are incompatible with common forms of color&#10;blindness. In this workshop we will develop approaches to readily generate optimized&#10;color palettes for continuous and categorical variables."/>
+  <meta property="description" itemprop="description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;A modern implementation, `sf`, uses the simple features format to encode spatial vector data. This&#10;method integrates directly into tidy workflows and visualization method such as `ggplot2`.&#10;In this workshop we will introduce the `sf` package and practice generating vector graphics for&#10;geospatial data using `ggplot2`."/>
 
 
   <!--  https://schema.org/Article -->
@@ -97,26 +97,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="Benjamin Soltoff"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Optimizing selection of color palettes"/>
+  <meta property="og:title" content="Geospatial visualizations with sf"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Researchers frequently use color to communicate numeric values in a data visualization.&#10;Most software will implement a default algorithm to select a color palette, and these&#10;palettes frequently are hard-to-interpret or are incompatible with common forms of color&#10;blindness. In this workshop we will develop approaches to readily generate optimized&#10;color palettes for continuous and categorical variables."/>
+  <meta property="og:description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;A modern implementation, `sf`, uses the simple features format to encode spatial vector data. This&#10;method integrates directly into tidy workflows and visualization method such as `ggplot2`.&#10;In this workshop we will introduce the `sf` package and practice generating vector graphics for&#10;geospatial data using `ggplot2`."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Optimizing selection of color palettes"/>
-  <meta property="twitter:description" content="Researchers frequently use color to communicate numeric values in a data visualization.&#10;Most software will implement a default algorithm to select a color palette, and these&#10;palettes frequently are hard-to-interpret or are incompatible with common forms of color&#10;blindness. In this workshop we will develop approaches to readily generate optimized&#10;color palettes for continuous and categorical variables."/>
+  <meta property="twitter:title" content="Geospatial visualizations with sf"/>
+  <meta property="twitter:description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;A modern implementation, `sf`, uses the simple features format to encode spatial vector data. This&#10;method integrates directly into tidy workflows and visualization method such as `ggplot2`.&#10;In this workshop we will introduce the `sf` package and practice generating vector graphics for&#10;geospatial data using `ggplot2`."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Optimizing selection of color palettes"]},{"type":"character","attributes":{},"value":["Researchers frequently use color to communicate numeric values in a data visualization.\nMost software will implement a default algorithm to select a color palette, and these\npalettes frequently are hard-to-interpret or are incompatible with common forms of color\nblindness. In this workshop we will develop approaches to readily generate optimized\ncolor palettes for continuous and categorical variables.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Benjamin Soltoff"]},{"type":"character","attributes":{},"value":["https://www.bensoltoff.com"]},{"type":"character","attributes":{},"value":["University of Chicago"]},{"type":"character","attributes":{},"value":["https://macss.uchicago.edu"]}]}]},{"type":"character","attributes":{},"value":["10-19-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Geospatial visualizations with sf"]},{"type":"character","attributes":{},"value":["R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nA modern implementation, `sf`, uses the simple features format to encode spatial vector data. This\nmethod integrates directly into tidy workflows and visualization method such as `ggplot2`.\nIn this workshop we will introduce the `sf` package and practice generating vector graphics for\ngeospatial data using `ggplot2`.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Benjamin Soltoff"]},{"type":"character","attributes":{},"value":["https://www.bensoltoff.com"]},{"type":"character","attributes":{},"value":["University of Chicago"]},{"type":"character","attributes":{},"value":["https://macss.uchicago.edu"]}]}]},{"type":"character","attributes":{},"value":["10-19-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["optimizing-selection-of-color-palettes_files/anchor-4.2.2/anchor.min.js","optimizing-selection-of-color-palettes_files/bowser-1.9.3/bowser.min.js","optimizing-selection-of-color-palettes_files/distill-2.2.21/template.v2.js","optimizing-selection-of-color-palettes_files/header-attrs-2.10/header-attrs.js","optimizing-selection-of-color-palettes_files/jquery-1.11.3/jquery.min.js","optimizing-selection-of-color-palettes_files/popper-2.6.0/popper.min.js","optimizing-selection-of-color-palettes_files/tippy-6.2.7/tippy-bundle.umd.min.js","optimizing-selection-of-color-palettes_files/tippy-6.2.7/tippy-light-border.css","optimizing-selection-of-color-palettes_files/tippy-6.2.7/tippy.css","optimizing-selection-of-color-palettes_files/tippy-6.2.7/tippy.umd.min.js","optimizing-selection-of-color-palettes_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["geospatial-visualizations-with-sf_files/anchor-4.2.2/anchor.min.js","geospatial-visualizations-with-sf_files/bowser-1.9.3/bowser.min.js","geospatial-visualizations-with-sf_files/distill-2.2.21/template.v2.js","geospatial-visualizations-with-sf_files/header-attrs-2.10/header-attrs.js","geospatial-visualizations-with-sf_files/jquery-1.11.3/jquery.min.js","geospatial-visualizations-with-sf_files/popper-2.6.0/popper.min.js","geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy-bundle.umd.min.js","geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy-light-border.css","geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy.css","geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy.umd.min.js","geospatial-visualizations-with-sf_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1434,16 +1434,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="optimizing-selection-of-color-palettes_files/header-attrs-2.10/header-attrs.js"></script>
-  <script src="optimizing-selection-of-color-palettes_files/jquery-1.11.3/jquery.min.js"></script>
-  <script src="optimizing-selection-of-color-palettes_files/popper-2.6.0/popper.min.js"></script>
-  <link href="optimizing-selection-of-color-palettes_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="optimizing-selection-of-color-palettes_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="optimizing-selection-of-color-palettes_files/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="optimizing-selection-of-color-palettes_files/anchor-4.2.2/anchor.min.js"></script>
-  <script src="optimizing-selection-of-color-palettes_files/bowser-1.9.3/bowser.min.js"></script>
-  <script src="optimizing-selection-of-color-palettes_files/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="optimizing-selection-of-color-palettes_files/distill-2.2.21/template.v2.js"></script>
+  <script src="geospatial-visualizations-with-sf_files/header-attrs-2.10/header-attrs.js"></script>
+  <script src="geospatial-visualizations-with-sf_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="geospatial-visualizations-with-sf_files/popper-2.6.0/popper.min.js"></script>
+  <link href="geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="geospatial-visualizations-with-sf_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="geospatial-visualizations-with-sf_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="geospatial-visualizations-with-sf_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="geospatial-visualizations-with-sf_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1455,7 +1455,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Optimizing selection of color palettes","description":"Researchers frequently use color to communicate numeric values in a data visualization.\nMost software will implement a default algorithm to select a color palette, and these\npalettes frequently are hard-to-interpret or are incompatible with common forms of color\nblindness. In this workshop we will develop approaches to readily generate optimized\ncolor palettes for continuous and categorical variables.","authors":[{"author":"Benjamin Soltoff","authorURL":"https://www.bensoltoff.com","affiliation":"University of Chicago","affiliationURL":"https://macss.uchicago.edu","orcidID":""}],"publishedDate":"2021-10-19T00:00:00.000+00:00","citationText":"Soltoff, 2021"}
+{"title":"Geospatial visualizations with sf","description":"R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nA modern implementation, `sf`, uses the simple features format to encode spatial vector data. This\nmethod integrates directly into tidy workflows and visualization method such as `ggplot2`.\nIn this workshop we will introduce the `sf` package and practice generating vector graphics for\ngeospatial data using `ggplot2`.","authors":[{"author":"Benjamin Soltoff","authorURL":"https://www.bensoltoff.com","affiliation":"University of Chicago","affiliationURL":"https://macss.uchicago.edu","orcidID":""}],"publishedDate":"2021-10-19T00:00:00.000+00:00","citationText":"Soltoff, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1465,10 +1465,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Optimizing selection of color palettes</h1>
+<h1>Geospatial visualizations with sf</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Researchers frequently use color to communicate numeric values in a data visualization. Most software will implement a default algorithm to select a color palette, and these palettes frequently are hard-to-interpret or are incompatible with common forms of color blindness. In this workshop we will develop approaches to readily generate optimized color palettes for continuous and categorical variables.</p></p>
+<p><p>R contains many different packages for importing, structuring, and visualizing geospatial datasets. A modern implementation, <code>sf</code>, uses the simple features format to encode spatial vector data. This method integrates directly into tidy workflows and visualization method such as <code>ggplot2</code>. In this workshop we will introduce the <code>sf</code> package and practice generating vector graphics for geospatial data using <code>ggplot2</code>.</p></p>
 </div>
 
 <div class="d-byline">

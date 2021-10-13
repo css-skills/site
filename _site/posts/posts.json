@@ -17,9 +17,9 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-11-02-geospatial-visualizations-with-sf/",
-    "title": "Geospatial visualizations with sf",
-    "description": "R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nA modern implementation, `sf`, uses the simple features format to encode spatial vector data. This\nmethod integrates directly into tidy workflows and visualization method such as `ggplot2`.\nIn this workshop we will introduce the `sf` package and practice generating vector graphics for\ngeospatial data using `ggplot2`.",
+    "path": "posts/2021-11-02-optimizing-selection-of-color-palettes/",
+    "title": "Optimizing selection of color palettes",
+    "description": "Researchers frequently use color to communicate numeric values in a data visualization.\nMost software will implement a default algorithm to select a color palette, and these\npalettes frequently are hard-to-interpret or are incompatible with common forms of color\nblindness. In this workshop we will develop approaches to readily generate optimized\ncolor palettes for continuous and categorical variables.",
     "author": [
       {
         "name": "Benjamin Soltoff",
@@ -28,15 +28,15 @@
     ],
     "date": "2021-11-02",
     "categories": [],
-    "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form. Link to be posted.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
+    "contents": "\nOverview\nAudience\nThis workshop is designed for individuals with a basic familiarity using R and ggplot2 for data visualization.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nIf you have not participated in a previous workshop meeting, join the workshop organization.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-09-24T14:48:05-05:00",
+    "last_modified": "2021-10-12T20:10:47-05:00",
     "input_file": {}
   },
   {
-    "path": "posts/2021-10-19-optimizing-selection-of-color-palettes/",
-    "title": "Optimizing selection of color palettes",
-    "description": "Researchers frequently use color to communicate numeric values in a data visualization.\nMost software will implement a default algorithm to select a color palette, and these\npalettes frequently are hard-to-interpret or are incompatible with common forms of color\nblindness. In this workshop we will develop approaches to readily generate optimized\ncolor palettes for continuous and categorical variables.",
+    "path": "posts/2021-10-19-geospatial-visualizations-with-sf/",
+    "title": "Geospatial visualizations with sf",
+    "description": "R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nA modern implementation, `sf`, uses the simple features format to encode spatial vector data. This\nmethod integrates directly into tidy workflows and visualization method such as `ggplot2`.\nIn this workshop we will introduce the `sf` package and practice generating vector graphics for\ngeospatial data using `ggplot2`.",
     "author": [
       {
         "name": "Benjamin Soltoff",
@@ -47,7 +47,7 @@
     "categories": [],
     "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form. Link to be posted.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-09-24T14:47:59-05:00",
+    "last_modified": "2021-10-12T20:10:43-05:00",
     "input_file": {}
   },
   {
