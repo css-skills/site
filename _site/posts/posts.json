@@ -35,8 +35,8 @@
   },
   {
     "path": "posts/2021-10-19-geospatial-visualizations-with-r/",
-    "title": "Geospatial visualizations with sf",
-    "description": "R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nA modern implementation, `sf`, uses the simple features format to encode spatial vector data. This\nmethod integrates directly into tidy workflows and visualization method such as `ggplot2`.\nIn this workshop we will introduce the `sf` package and practice generating vector graphics for\ngeospatial data using `ggplot2`.",
+    "title": "Geospatial visualizations with R",
+    "description": "R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nIn this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps)\nusing pre-generated mapping tiles as well as spatial vector datasets. These methods integrate\ndirectly into tidy workflows and visualization methods such as `ggplot2`.",
     "author": [
       {
         "name": "Benjamin Soltoff",
@@ -45,9 +45,9 @@
     ],
     "date": "2021-10-19",
     "categories": [],
-    "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form. Link to be posted.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
+    "contents": "\nOverview\nR contains many different packages for importing, structuring, and visualizing geospatial datasets. In this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps). In the first method we will obtain pre-generated mapping tiles from sources such as Stamen Maps using the ggmap package. With the second method, we will use spatial data files which contain detailed information to draw all the components of a map (e.g. points, lines, polygons) using the simple features framework and the sf package. These methods integrate directly into tidy workflows and visualization methods such as ggplot2.\nObjectives\nIntroduce the major components of a geospatial visualization\nIdentify how to obtain map tiles using ggmap and get_map()\nGenerate plots overlaying data on raster map tiles\nDefine common data structures for storing spatial data objects\nImport spatial data using the sf package\nDraw maps using ggplot2 and geom_sf()\nChange coordinate systems\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nIf you have not participated in a previous workshop meeting, join the workshop organization.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-15T12:37:24-05:00",
+    "last_modified": "2021-10-15T12:46:18-05:00",
     "input_file": {}
   },
   {

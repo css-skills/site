@@ -86,9 +86,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Geospatial visualizations with sf</title>
+  <title>Geospatial visualizations with R</title>
 
-  <meta property="description" itemprop="description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;A modern implementation, `sf`, uses the simple features format to encode spatial vector data. This&#10;method integrates directly into tidy workflows and visualization method such as `ggplot2`.&#10;In this workshop we will introduce the `sf` package and practice generating vector graphics for&#10;geospatial data using `ggplot2`."/>
+  <meta property="description" itemprop="description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;In this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps)&#10;using pre-generated mapping tiles as well as spatial vector datasets. These methods integrate&#10;directly into tidy workflows and visualization methods such as `ggplot2`."/>
 
 
   <!--  https://schema.org/Article -->
@@ -97,26 +97,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="Benjamin Soltoff"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Geospatial visualizations with sf"/>
+  <meta property="og:title" content="Geospatial visualizations with R"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;A modern implementation, `sf`, uses the simple features format to encode spatial vector data. This&#10;method integrates directly into tidy workflows and visualization method such as `ggplot2`.&#10;In this workshop we will introduce the `sf` package and practice generating vector graphics for&#10;geospatial data using `ggplot2`."/>
+  <meta property="og:description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;In this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps)&#10;using pre-generated mapping tiles as well as spatial vector datasets. These methods integrate&#10;directly into tidy workflows and visualization methods such as `ggplot2`."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Geospatial visualizations with sf"/>
-  <meta property="twitter:description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;A modern implementation, `sf`, uses the simple features format to encode spatial vector data. This&#10;method integrates directly into tidy workflows and visualization method such as `ggplot2`.&#10;In this workshop we will introduce the `sf` package and practice generating vector graphics for&#10;geospatial data using `ggplot2`."/>
+  <meta property="twitter:title" content="Geospatial visualizations with R"/>
+  <meta property="twitter:description" content="R contains many different packages for importing, structuring, and visualizing geospatial datasets.&#10;In this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps)&#10;using pre-generated mapping tiles as well as spatial vector datasets. These methods integrate&#10;directly into tidy workflows and visualization methods such as `ggplot2`."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Geospatial visualizations with sf"]},{"type":"character","attributes":{},"value":["R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nA modern implementation, `sf`, uses the simple features format to encode spatial vector data. This\nmethod integrates directly into tidy workflows and visualization method such as `ggplot2`.\nIn this workshop we will introduce the `sf` package and practice generating vector graphics for\ngeospatial data using `ggplot2`.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Benjamin Soltoff"]},{"type":"character","attributes":{},"value":["https://www.bensoltoff.com"]},{"type":"character","attributes":{},"value":["University of Chicago"]},{"type":"character","attributes":{},"value":["https://macss.uchicago.edu"]}]}]},{"type":"character","attributes":{},"value":["10-19-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Geospatial visualizations with R"]},{"type":"character","attributes":{},"value":["R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nIn this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps)\nusing pre-generated mapping tiles as well as spatial vector datasets. These methods integrate\ndirectly into tidy workflows and visualization methods such as `ggplot2`.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Benjamin Soltoff"]},{"type":"character","attributes":{},"value":["https://www.bensoltoff.com"]},{"type":"character","attributes":{},"value":["University of Chicago"]},{"type":"character","attributes":{},"value":["https://macss.uchicago.edu"]}]}]},{"type":"character","attributes":{},"value":["10-19-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["geospatial-visualizations-with-sf_files/anchor-4.2.2/anchor.min.js","geospatial-visualizations-with-sf_files/bowser-1.9.3/bowser.min.js","geospatial-visualizations-with-sf_files/distill-2.2.21/template.v2.js","geospatial-visualizations-with-sf_files/header-attrs-2.10/header-attrs.js","geospatial-visualizations-with-sf_files/jquery-1.11.3/jquery.min.js","geospatial-visualizations-with-sf_files/popper-2.6.0/popper.min.js","geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy-bundle.umd.min.js","geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy-light-border.css","geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy.css","geospatial-visualizations-with-sf_files/tippy-6.2.7/tippy.umd.min.js","geospatial-visualizations-with-sf_files/webcomponents-2.0.0/webcomponents.js","geospatial-visualizations-with-sf.html"]}
+  {"type":"character","attributes":{},"value":["geospatial-visualizations-with-r_files/anchor-4.2.2/anchor.min.js","geospatial-visualizations-with-r_files/bowser-1.9.3/bowser.min.js","geospatial-visualizations-with-r_files/distill-2.2.21/template.v2.js","geospatial-visualizations-with-r_files/header-attrs-2.10/header-attrs.js","geospatial-visualizations-with-r_files/jquery-1.11.3/jquery.min.js","geospatial-visualizations-with-r_files/popper-2.6.0/popper.min.js","geospatial-visualizations-with-r_files/tippy-6.2.7/tippy-bundle.umd.min.js","geospatial-visualizations-with-r_files/tippy-6.2.7/tippy-light-border.css","geospatial-visualizations-with-r_files/tippy-6.2.7/tippy.css","geospatial-visualizations-with-r_files/tippy-6.2.7/tippy.umd.min.js","geospatial-visualizations-with-r_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1455,7 +1455,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Geospatial visualizations with sf","description":"R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nA modern implementation, `sf`, uses the simple features format to encode spatial vector data. This\nmethod integrates directly into tidy workflows and visualization method such as `ggplot2`.\nIn this workshop we will introduce the `sf` package and practice generating vector graphics for\ngeospatial data using `ggplot2`.","authors":[{"author":"Benjamin Soltoff","authorURL":"https://www.bensoltoff.com","affiliation":"University of Chicago","affiliationURL":"https://macss.uchicago.edu","orcidID":""}],"publishedDate":"2021-10-19T00:00:00.000+00:00","citationText":"Soltoff, 2021"}
+{"title":"Geospatial visualizations with R","description":"R contains many different packages for importing, structuring, and visualizing geospatial datasets.\nIn this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps)\nusing pre-generated mapping tiles as well as spatial vector datasets. These methods integrate\ndirectly into tidy workflows and visualization methods such as `ggplot2`.","authors":[{"author":"Benjamin Soltoff","authorURL":"https://www.bensoltoff.com","affiliation":"University of Chicago","affiliationURL":"https://macss.uchicago.edu","orcidID":""}],"publishedDate":"2021-10-19T00:00:00.000+00:00","citationText":"Soltoff, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1465,10 +1465,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Geospatial visualizations with sf</h1>
+<h1>Geospatial visualizations with R</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>R contains many different packages for importing, structuring, and visualizing geospatial datasets. A modern implementation, <code>sf</code>, uses the simple features format to encode spatial vector data. This method integrates directly into tidy workflows and visualization method such as <code>ggplot2</code>. In this workshop we will introduce the <code>sf</code> package and practice generating vector graphics for geospatial data using <code>ggplot2</code>.</p></p>
+<p><p>R contains many different packages for importing, structuring, and visualizing geospatial datasets. In this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps) using pre-generated mapping tiles as well as spatial vector datasets. These methods integrate directly into tidy workflows and visualization methods such as <code>ggplot2</code>.</p></p>
 </div>
 
 <div class="d-byline">
@@ -1479,12 +1479,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <h2 id="overview">Overview</h2>
+<p>R contains many different packages for importing, structuring, and visualizing geospatial datasets. In this workshop we will consider two workflows for drawing geospatial data visualizations (aka data maps). In the first method we will obtain pre-generated mapping tiles from sources such as Stamen Maps using the <code>ggmap</code> package. With the second method, we will use spatial data files which contain detailed information to draw all the components of a map (e.g. points, lines, polygons) using the simple features framework and the <code>sf</code> package. These methods integrate directly into tidy workflows and visualization methods such as <code>ggplot2</code>.</p>
+<h2 id="objectives">Objectives</h2>
+<ul>
+<li>Introduce the major components of a geospatial visualization</li>
+<li>Identify how to obtain map tiles using <code>ggmap</code> and <code>get_map()</code></li>
+<li>Generate plots overlaying data on raster map tiles</li>
+<li>Define common data structures for storing spatial data objects</li>
+<li>Import spatial data using the <code>sf</code> package</li>
+<li>Draw maps using <code>ggplot2</code> and <code>geom_sf()</code></li>
+<li>Change coordinate systems</li>
+</ul>
 <h2 id="location">Location</h2>
 <p>Room 295 in <a href="https://goo.gl/maps/7n7wDsd9mjnfRBtR8">1155 E 60th St</a>.</p>
 <h2 id="prework">Prework</h2>
 <ul>
-<li>Register for this workshop. Due to the current public health crisis, all participants must register in advance using this form. <strong>Link to be posted.</strong></li>
+<li>Register for this workshop. Due to the current public health crisis, all participants must register in advance using <a href="https://forms.gle/DUuSYvCdEa2TR2ZR9">this form</a>.</li>
 <li>Please sign up for a free <a href="https://rstudio.cloud">RStudio Cloud account</a>.</li>
+<li>If you have not participated in a previous workshop meeting, <a href="https://rstudio.cloud/spaces/177434/join?access_code=cGV7c0V8%2Bpr0kFC5NkOX%2FgxNNhIm3PchWX1CjdBf">join the workshop organization.</a></li>
 </ul>
 <h2 id="links">Links</h2>
 <ul>
