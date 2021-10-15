@@ -35,6 +35,10 @@ R contains many different packages for importing, structuring, and visualizing g
 - Draw maps using `ggplot2` and `geom_sf()`
 - Change coordinate systems
 
+## Audience
+
+This workshop is designed for individuals with a basic familiarity using R and `ggplot2` for data visualization.
+
 ## Location
 
 Room 295 in [1155 E 60th St](https://goo.gl/maps/7n7wDsd9mjnfRBtR8).
