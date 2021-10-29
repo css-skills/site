@@ -26,8 +26,8 @@ and practice developing notebooks interweaving source code, output, and written 
       <link>https://css-skills.uchicago.edu/posts/2021-11-02-optimizing-selection-of-color-palettes</link>
       <description>Researchers frequently use color to communicate numeric values in a data visualization.
 Most software will implement a default algorithm to select a color palette, and these
-palettes frequently are hard-to-interpret or are incompatible with common forms of color
-blindness. In this workshop we will develop approaches to readily generate optimized
+palettes frequently are hard-to-interpret or are inaccessible to individuals with vision
+impairments. In this workshop we will develop approaches to readily generate optimized
 color palettes for continuous and categorical variables.</description>
       <guid>https://css-skills.uchicago.edu/posts/2021-11-02-optimizing-selection-of-color-palettes</guid>
       <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>

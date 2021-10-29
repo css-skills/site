@@ -19,7 +19,7 @@
   {
     "path": "posts/2021-11-02-optimizing-selection-of-color-palettes/",
     "title": "Optimizing selection of color palettes",
-    "description": "Researchers frequently use color to communicate numeric values in a data visualization.\nMost software will implement a default algorithm to select a color palette, and these\npalettes frequently are hard-to-interpret or are incompatible with common forms of color\nblindness. In this workshop we will develop approaches to readily generate optimized\ncolor palettes for continuous and categorical variables.",
+    "description": "Researchers frequently use color to communicate numeric values in a data visualization.\nMost software will implement a default algorithm to select a color palette, and these\npalettes frequently are hard-to-interpret or are inaccessible to individuals with vision\nimpairments. In this workshop we will develop approaches to readily generate optimized\ncolor palettes for continuous and categorical variables.",
     "author": [
       {
         "name": "Benjamin Soltoff",
@@ -28,9 +28,9 @@
     ],
     "date": "2021-11-02",
     "categories": [],
-    "contents": "\nOverview\nAudience\nThis workshop is designed for individuals with a basic familiarity using R and ggplot2 for data visualization.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nIf you have not participated in a previous workshop meeting, join the workshop organization.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
+    "contents": "\nOverview\nResearchers frequently use color to communicate numeric values in a data visualization. Most software will implement a default algorithm to select a color palette, and these palettes frequently are hard-to-interpret or are inaccessible to individuals with vision impairments. In this workshop we will develop approaches to readily generate optimized color palettes for continuous and categorical variables.\nObjectives\nIdentify when color is used to visualize data\nDistinguish between hue palettes and gradients\nDemonstrate the importance of selecting appropriate palettes/gradients for interpretation and accessibility\nEvaluate use cases for quantitative vs. qualitative color scales\nEvaluate use cases for sequential vs. diverging color scales\nEvaluate use cases for discrete vs. continuous color scales\nConsider how to interpolate values to colors\nImplement ready-to-use optimized color scales using ggplot2 and existing R packages\nAudience\nThis workshop is designed for individuals with a basic familiarity using R and ggplot2 for data visualization.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nIf you have not participated in a previous workshop meeting, join the workshop organization.\nLinks\nSource materials for the workshop on GitHub\nAcknowledgments\nOverview of color palettes drawn from “Which color scale to use when visualizing data” by Lisa Charlotte Muth\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-12T20:10:47-05:00",
+    "last_modified": "2021-10-29T15:27:44-05:00",
     "input_file": {}
   },
   {
