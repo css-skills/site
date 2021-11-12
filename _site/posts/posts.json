@@ -9,11 +9,11 @@
         "url": "https://www.bensoltoff.com"
       }
     ],
-    "date": "2021-11-16",
+    "date": "2021-11-12",
     "categories": [],
-    "contents": "\nOverview\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form. Link to be posted.\nPlease sign up for a free RStudio Cloud account.\nLinks\nRStudio Cloud workspace\nSource materials for the workshop on GitHub\n\n\n\n",
+    "contents": "\nOverview\nLiterate programming is a technique for meshing source code with a human-readable explanation of its logic. This approach is used widely in data science and the social sciences to enable reproducible research and open access. In this workshop, we introduce rmarkdown and the R Markdown document format, and practice developing notebooks interweaving source code, output, and written text.\nObjectives\nReview the importance of reproducibility in scientific research\nIdentify the major components of R Markdown documents\nPractice writing Markdown formatted text\nDefine knitr chunks\nImplement chunk options to customize output\nCreate different R Markdown document formats\nDistinguish R Markdown documents from R Markdown notebooks\nDistinguish between R scripts (.R) and R Markdown documents (.Rmd)\nAudience\nThis workshop is designed for individuals with a basic familiarity using R for data analysis.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nIf you have not participated in a previous workshop meeting, join the workshop organization.\nLinks\nSlides\nSource materials for the workshop on GitHub\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-11-02T14:48:56-05:00",
+    "last_modified": "2021-11-12T13:21:42-06:00",
     "input_file": {}
   },
   {

@@ -8,7 +8,7 @@
 in the social sciences.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 16 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Literate programming with R Markdown</title>
       <dc:creator>Benjamin Soltoff</dc:creator>
@@ -18,7 +18,7 @@ logic. This approach is used widely in data science and the social sciences to e
 reproducible research and open access. In this workshop, we introduce the R Markdown document format
 and practice developing notebooks interweaving source code, output, and written text.</description>
       <guid>https://css-skills.uchicago.edu/posts/2021-11-16-literate-programming-with-r-markdown</guid>
-      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Optimizing selection of color palettes</title>
