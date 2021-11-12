@@ -5,14 +5,14 @@
       "title": "About the workshop",
       "author": [],
       "contents": "\nInstructor\nBenjamin Soltoff\n\n\n\nsoltoffbc@uchicago.edu\nDr. Soltoff is an Assistant Senior Instructional Professor in Computational Social Science and Associate Director of the Masters in Computational Social Science at the University of Chicago. He leads the CSS Technical Skills workshop. He currently teaches courses on social scientific research design, computational modeling, data science, math/statistics, and data visualization. For more information, visit his homepage.\nWorkshop faciliators\nDonghyun Kang\nVincent Liu\n\n\n\n",
-      "last_modified": "2021-11-12T13:21:58-06:00"
+      "last_modified": "2021-11-12T13:23:54-06:00"
     },
     {
       "path": "index.html",
       "title": "Schedule of workshop events",
       "author": [],
       "contents": "\nAbout\nThe Computational Social Science Technical Skills Workshop (or Computation Skills Workshop for short) trains participants in technical skills and methods which are relevant to computationally-driven research, but are not typically taught in for-credit courses. It provides an explicit introduction to core software environments and interfaces which impose a barrier to access for individuals lacking prior exposure to programming, and facilitates a community of computational researchers across the Division of the Social Sciences. Individual workshops are designed for a range of technical backgrounds, including purely introductory methods as well as intermediate or advanced training in specific software or computational techniques. Workshops are designed for hands-on learning, and will include substantial live-coding exercises.\nThe workshop is organized by the Masters Program in Computational Social Science at the University of Chicago and meets biweekly on Tuesdays from 3:30-5:20pm in room 295 at 1155 E 60th St. All members of the University community are invited to participate. Due to the ongoing public health crisis, all participants will be required to register in advance for each workshop.\n\n\n\n",
-      "last_modified": "2021-11-12T13:21:58-06:00"
+      "last_modified": "2021-11-12T13:23:54-06:00"
     }
   ],
   "collections": ["posts/posts.json"]
