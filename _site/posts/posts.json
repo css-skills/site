@@ -1,5 +1,73 @@
 [
   {
+    "path": "posts/2022-03-08-introduction-to-git-and-github/",
+    "title": "Introduction to Git and GitHub",
+    "description": "Version control software such as Git is essential for collaboration and version\ntracking on data science projects, however the learning curve for Git is quite steep. In this\nworkshop we will practice common workflows using Git and GitHub.",
+    "author": [
+      {
+        "name": "Benjamin Soltoff",
+        "url": "https://www.bensoltoff.com"
+      }
+    ],
+    "date": "2022-03-08",
+    "categories": [],
+    "contents": "\nOverview\nGit is a common tool in software development for version control, while GitHub is a cloud-based service that works in conjunction with the Git software to facilitate version control and collaboration. These tools can be used to improve data science workflows and computationally-enhanced research projects. However the learning curve for Git is quite steep, and often individuals are left to learn Git on their own with little explicit instruction. In this workshop we will introduce Git/GitHub and practice common workflows.\nObjectives\nIdentify the value of version control software for data science projects\nCreate repositories\nMake commits and synchronize repositories\nImplement collaborative workflows using branches and forks\nGenerate pull requests\nAudience\nThis workshop is designed for individuals with introductory-to-intermediate experience programming in a language such as Python or R.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nOnce you have created your RStudio Cloud account, join the workshop organization.\nLinks\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-01-18T15:11:20-06:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-02-25-building-a-personal-website/",
+    "title": "Building a personal website",
+    "description": "A professional website is a great way to share information about yourself on the internet.\nIn this workshop we will learn how to build websites using R with R Markdown.",
+    "author": [
+      {
+        "name": "Benjamin Soltoff",
+        "url": "https://www.bensoltoff.com"
+      }
+    ],
+    "date": "2022-02-25",
+    "categories": [],
+    "contents": "\nOverview\nA professional website is a great way to share information about yourself and your projects on the internet. However creating a website can seem daunting if you have never worked with HTML, CSS, or Javascript. In this workshop we will learn how to build websites using R, RStudio, and R Markdown.\nObjectives\nIdentify the value of a personal website\nCreate a basic GitHub profile\nGenerate an “about” page using postcards and publish it with GitHub Pages\nCreate a Markdown-based website using Hugo and blogdown\nPublish a version-controlled website on GitHub using Netlify\nAudience\nThis workshop is designed for individuals who use R on a regular basis for data analysis. Prior experience with Git and GitHub is preferred but not essential.\nLocation\nNote: This workshop meets on a special date and time (Friday February 25th from 9:30-12:20pm)!\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nOnce you have created your RStudio Cloud account, join the workshop organization.\nLinks\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-01-18T14:56:13-06:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-02-08-interpretable-machine-learning-methods/",
+    "title": "Interpretable machine learning methods",
+    "description": "The predictions of many machine learning algorithms cannot be directly explained.\nIn this workshop we develop model-agnostic methods for explainin the predictions of\nmachine learning models.",
+    "author": [
+      {
+        "name": "Benjamin Soltoff",
+        "url": "https://www.bensoltoff.com"
+      }
+    ],
+    "date": "2022-02-08",
+    "categories": [],
+    "contents": "\nOverview\nMachine learning algorithms are widely used in data science applications and have significant potential to improve predictions and understanding of social scientific processes. However machine learning models generally do not explain their predictions – they simply seek to minimize some loss function and provide for a given observation the probability of an event occurring. In many applications researchers need to be able to explain why the model made one prediction over another. This emphasis on interpretability is directly relevant to many social scientific questions, and can provide necessary context for decision makers who need to use machine learning models but lack a strong technical background. In this workshop we introduce several techniques for interpreting black box models using model-agnostic techniques.\nObjectives\nDefine interpretability and its importance to machine learning\nIdentify algorithms for interpretable models\nDefine model-agnostic methods for creating explanations\nImplement techniques for creating global model-agnostic explanations in R\nImplement techniques for creating local model-agnostic explanations in R\nAudience\nThis workshop is designed for individuals with introductory-to-intermediate knowledge of machine learning algorithms, as well as experience training machine learning models using R. Prior experience with tidymodels is helpful, but not required.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nOnce you have created your RStudio Cloud account, join the workshop organization.\nLinks\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-01-18T14:56:19-06:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-01-25-introduction-to-r-for-the-python-user/",
+    "title": "Introduction to R for the Python User",
+    "description": "A quick-start guide for Python users to get up to speed with the R programming language.",
+    "author": [
+      {
+        "name": "Benjamin Soltoff",
+        "url": "https://www.bensoltoff.com"
+      }
+    ],
+    "date": "2022-01-25",
+    "categories": [],
+    "contents": "\nOverview\nPython and R are two of the dominant programming languages used in data science. Python has strong demand within industry, while in many academic fields R is the preferred language. While the flame wars between Python and R users continue to rage, many leading software developers and data science practitioners urge users to learn how to leverage both languages depending on each software’s natural strengths.1 This workshop is designed for Python users who want to learn how to use R in their work.\nObjectives\nReview the origins of the R programming language.\nIdentify the basic elements of R\nDistinguish equivalent operations in R from Python\nIntroduce a common set of packages for data analysis in R\nAudience\nThis workshop is designed for individuals with intermediate-to-advanced training and/or experience in Python (e.g. MACS 30121 and beyond) who have never used R before. Especially useful if you are taking a course which requires you to complete assignments using R.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nOnce you have created your RStudio Cloud account, join the workshop organization.\nLinks\n\nConsider this illuminating interview with Hadley Wickham, Chief Scientist at RStudio and an Adjunct Professor of Statistics at the University of Auckland, Stanford University, and Rice University.↩︎\n",
+    "preview": {},
+    "last_modified": "2022-01-18T15:12:15-06:00",
+    "input_file": "introduction-to-r-for-the-python-user.knit.md"
+  },
+  {
     "path": "posts/2021-11-16-literate-programming-with-r-markdown/",
     "title": "Literate programming with R Markdown",
     "description": "Literate programming is a technique for meshing source code with a human-readable explanation of its\nlogic. This approach is used widely in data science and the social sciences to enable\nreproducible research and open access. In this workshop, we introduce the R Markdown document format\nand practice developing notebooks interweaving source code, output, and written text.",

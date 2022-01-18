@@ -1,0 +1,51 @@
+---
+title: "Building a personal website"
+description: |
+  A professional website is a great way to share information about yourself on the internet.
+  In this workshop we will learn how to build websites using R with R Markdown.
+author:
+  - name: Benjamin Soltoff
+    url: https://www.bensoltoff.com
+    affiliation: University of Chicago
+    affiliation_url: https://macss.uchicago.edu
+date: 2022-02-25
+creative_commons: CC BY-NC
+output:
+  distill::distill_article:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+A professional website is a great way to share information about yourself and your projects on the internet. However creating a website can seem daunting if you have never worked with HTML, CSS, or Javascript. In this workshop we will learn how to build websites using R, RStudio, and R Markdown.
+
+## Objectives
+
+- Identify the value of a personal website
+- Create a basic GitHub profile
+- Generate an "about" page using [`postcards`](https://github.com/seankross/postcards) and publish it with GitHub Pages
+- Create a Markdown-based website using [Hugo](https://gohugo.io/) and [`blogdown`](https://pkgs.rstudio.com/blogdown/)
+- Publish a version-controlled website on GitHub using [Netlify](https://www.netlify.com/)
+
+## Audience
+
+This workshop is designed for individuals who use R on a regular basis for data analysis. Prior experience with Git and GitHub is preferred but not essential.
+
+## Location
+
+**Note: This workshop meets on a special date and time (Friday February 25th from 9:30-12:20pm)!**
+
+Room 295 in [1155 E 60th St](https://goo.gl/maps/7n7wDsd9mjnfRBtR8).
+
+## Prework
+
+- Register for this workshop. Due to the current public health crisis, all participants must register in advance using [this form.](https://forms.gle/ZiScq3nNwpQutAbt8)
+- Please sign up for a free [RStudio Cloud account](https://rstudio.cloud).
+- Once you have created your RStudio Cloud account, [join the workshop organization.](https://rstudio.cloud/spaces/177434/join?access_code=cGV7c0V8%2Bpr0kFC5NkOX%2FgxNNhIm3PchWX1CjdBf)
+
+## Links
+
