@@ -1,5 +1,5 @@
 ---
-title: "Introduction to R for the Python User"
+title: "Introduction to R for the Python user"
 description: |
   A quick-start guide for Python users to get up to speed with the R programming language.
 author:

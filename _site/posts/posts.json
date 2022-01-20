@@ -52,7 +52,7 @@
   },
   {
     "path": "posts/2022-01-25-introduction-to-r-for-the-python-user/",
-    "title": "Introduction to R for the Python User",
+    "title": "Introduction to R for the Python user",
     "description": "A quick-start guide for Python users to get up to speed with the R programming language.",
     "author": [
       {
@@ -64,7 +64,7 @@
     "categories": [],
     "contents": "\nOverview\nPython and R are two of the dominant programming languages used in data science. Python has strong demand within industry, while in many academic fields R is the preferred language. While the flame wars between Python and R users continue to rage, many leading software developers and data science practitioners urge users to learn how to leverage both languages depending on each software’s natural strengths.1 This workshop is designed for Python users who want to learn how to use R in their work.\nObjectives\nReview the origins of the R programming language.\nIdentify the basic elements of R\nDistinguish equivalent operations in R from Python\nIntroduce a common set of packages for data analysis in R\nAudience\nThis workshop is designed for individuals with intermediate-to-advanced training and/or experience in Python (e.g. MACS 30121 and beyond) who have never used R before. Especially useful if you are taking a course which requires you to complete assignments using R.\nLocation\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nOnce you have created your RStudio Cloud account, join the workshop organization.\nLinks\n\nConsider this illuminating interview with Hadley Wickham, Chief Scientist at RStudio and an Adjunct Professor of Statistics at the University of Auckland, Stanford University, and Rice University.↩︎\n",
     "preview": {},
-    "last_modified": "2022-01-18T15:12:15-06:00",
+    "last_modified": "2022-01-20T11:26:36-06:00",
     "input_file": {}
   },
   {
