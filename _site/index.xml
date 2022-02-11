@@ -29,12 +29,10 @@ In this workshop we will learn how to build websites using R with R Markdown.</d
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Interpretable machine learning methods</title>
+      <title>Interpreting and explaining machine learning models</title>
       <dc:creator>Benjamin Soltoff</dc:creator>
       <link>https://css-skills.uchicago.edu/posts/2022-02-15-interpretable-machine-learning-methods</link>
-      <description>The predictions of many machine learning algorithms cannot be directly explained.
-In this workshop we develop model-agnostic methods for explaining the predictions of
-machine learning models.</description>
+      <description>Machine learning algorithms are widely used in data science applications and have significant potential to improve predictions and understanding of social scientific processes. In many applications researchers need to be able to explain why the model made one prediction over another. In this workshop we introduce several techniques for interpreting black box models using model-agnostic techniques.</description>
       <guid>https://css-skills.uchicago.edu/posts/2022-02-15-interpretable-machine-learning-methods</guid>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
     </item>
