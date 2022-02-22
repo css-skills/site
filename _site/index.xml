@@ -20,12 +20,13 @@ workshop we will practice common workflows using Git and GitHub.</description>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Building a personal website</title>
+      <title>Introduce yourself online</title>
       <dc:creator>Benjamin Soltoff</dc:creator>
-      <link>https://css-skills.uchicago.edu/posts/2022-02-25-building-a-personal-website</link>
-      <description>A professional website is a great way to share information about yourself on the internet.
-In this workshop we will learn how to build websites using R with R Markdown.</description>
-      <guid>https://css-skills.uchicago.edu/posts/2022-02-25-building-a-personal-website</guid>
+      <link>https://css-skills.uchicago.edu/posts/2022-02-25-introduce-yourself-online</link>
+      <description>A professional web presence is a great way to share information about
+yourself on the internet. In this workshop we will learn how to build
+a few different types of websites using R and R Markdown.</description>
+      <guid>https://css-skills.uchicago.edu/posts/2022-02-25-introduce-yourself-online</guid>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
     </item>
     <item>

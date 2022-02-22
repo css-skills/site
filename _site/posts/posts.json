@@ -17,9 +17,9 @@
     "input_file": {}
   },
   {
-    "path": "posts/2022-02-25-building-a-personal-website/",
-    "title": "Building a personal website",
-    "description": "A professional website is a great way to share information about yourself on the internet.\nIn this workshop we will learn how to build websites using R with R Markdown.",
+    "path": "posts/2022-02-25-introduce-yourself-online/",
+    "title": "Introduce yourself online",
+    "description": "A professional web presence is a great way to share information about\nyourself on the internet. In this workshop we will learn how to build\na few different types of websites using R and R Markdown.",
     "author": [
       {
         "name": "Benjamin Soltoff",
@@ -28,9 +28,9 @@
     ],
     "date": "2022-02-25",
     "categories": [],
-    "contents": "\nOverview\nA professional website is a great way to share information about yourself and your projects on the internet. However creating a website can seem daunting if you have never worked with HTML, CSS, or Javascript. In this workshop we will learn how to build websites using R, RStudio, and R Markdown.\nObjectives\nIdentify the value of a personal website\nCreate a basic GitHub profile\nGenerate an “about” page using postcards and publish it with GitHub Pages\nCreate a Markdown-based website using Hugo and blogdown\nPublish a version-controlled website on GitHub using Netlify\nAudience\nThis workshop is designed for individuals who use R on a regular basis for data analysis. Prior experience with Git and GitHub is preferred but not essential.\nLocation\nNote: This workshop meets on a special date and time (Friday February 25th from 9:30-12:20pm)!\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nPlease sign up for a free RStudio Cloud account.\nOnce you have created your RStudio Cloud account, join the workshop organization.\nLinks\n\n\n\n",
+    "contents": "\nOverview\nA professional website is a great way to share information about yourself and your projects on the internet. However creating a website can seem daunting if you have never worked with HTML, CSS, or Javascript. In this workshop we will learn how to build websites using R, RStudio, and R Markdown.\nObjectives\nIdentify the value of an online presence\nCreate a basic GitHub profile\nGenerate an “about” page using postcards and publish it with GitHub Pages\nCreate a Markdown-based website using Hugo and blogdown\nPublish a version-controlled website on GitHub using Netlify\nAudience\nThis workshop is designed for individuals who use R on a regular basis for data analysis. Prior experience with Git and GitHub is preferred but not essential.\nLocation\nNote: This workshop meets on a special date and time (Friday February 25th from 9:30-12:20pm)!\nRoom 295 in 1155 E 60th St.\nPrework\nRegister for this workshop. Due to the current public health crisis, all participants must register in advance using this form.\nComplete the prework steps described here.\nLinks\nWorkshop materials\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-01-18T14:56:13-06:00",
+    "last_modified": "2022-02-22T15:43:06-06:00",
     "input_file": {}
   },
   {
